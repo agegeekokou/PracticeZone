@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AnnalynInfiltration\AnnalynInfiltration.csproj" />
+    <ProjectReference Include="..\BirdWatcher\BirdWatcher.csproj" />
+    <ProjectReference Include="..\SqueakyClean\SqueakyClean.csproj" />
+  </ItemGroup>
+
+</Project>
