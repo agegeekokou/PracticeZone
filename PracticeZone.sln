@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnalynInfiltration", "Anna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqueakyClean", "SqueakyClean\SqueakyClean.csproj", "{57F9C646-C733-41CB-8636-1233DC9FAE99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JedlikToys", "JedlikToys\JedlikToys.csproj", "{6911C441-A6B6-4576-893C-65033CF37CF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{57F9C646-C733-41CB-8636-1233DC9FAE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57F9C646-C733-41CB-8636-1233DC9FAE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57F9C646-C733-41CB-8636-1233DC9FAE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6911C441-A6B6-4576-893C-65033CF37CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6911C441-A6B6-4576-893C-65033CF37CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6911C441-A6B6-4576-893C-65033CF37CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6911C441-A6B6-4576-893C-65033CF37CF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

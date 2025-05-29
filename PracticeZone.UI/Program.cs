@@ -1,5 +1,6 @@
 ﻿using AnnalynInfiltration;
 using BirdWatcher;
+using JedlikToys;
 using SqueakyClean;
 using System;
 using System.Text;
@@ -45,8 +46,14 @@ namespace PracticeZone.UI
 
             //Identifier.Clean("1😀2😀3😀 this is a letter !");
 
-            Identifier.Clean("abcΑΒΓ123δεζ");
+            //Identifier.Clean("abcΑΒΓ123δεζ");
             //Console.WriteLine(result); // should output: "thisisaletter"
+
+            var car = RemoteControlCar.Buy();
+            car.Drive();
+            car.Drive();
+            car.DistanceDisplay();
+            //car.BatteryDisplay();
 
 
             //StringBuilder sb = new StringBuilder("hello-world");
