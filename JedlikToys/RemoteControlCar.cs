@@ -8,45 +8,31 @@ namespace JedlikToys
 {
     public class RemoteControlCar
     {
+        private int drivenDistance = 0;   
+        private int battery = 100;        
+
         public static RemoteControlCar Buy()
         {
             return new RemoteControlCar();
         }
 
         public string DistanceDisplay()
-         {
-            int totalDistance = 20;
-            bool numberOfCall = Convert.ToBoolean(Drive());
-
-            if (Boolean.TryParse(Drive(), out numberOfCall))
-            {
-                //numberOfCall++;
-                totalDistance += totalDistance;
-            }
-
-            //foreach (int drive in Drive() )
-            //{
-            //    totalDistance += drive;             
-            //}
-
-            return $"Driven {totalDistance} meters";
+        {
+            return $"Driven {drivenDistance} meters";
         }
 
         public string BatteryDisplay()
         {
-            int battery = 100;
-            Console.WriteLine($"Battery at {battery}%");
-
-            return $"Battery at {battery}%";
+            return battery > 0 ? $"Battery at {battery}%" : "Battery empty";
         }
 
-        public string Drive()
+        public void Drive()
         {
-            int drivenDistance = 20;
-            
-            Console.WriteLine($"Driven {drivenDistance} meters");
-
-            return $"Driven {drivenDistance} meters";
+            if (battery > 0)
+            {
+                drivenDistance += 20;
+                battery -= 1;
+            }
         }
     }
 }
