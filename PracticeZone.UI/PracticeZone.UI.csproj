@@ -11,6 +11,7 @@
     <ProjectReference Include="..\AnnalynInfiltration\AnnalynInfiltration.csproj" />
     <ProjectReference Include="..\BirdWatcher\BirdWatcher.csproj" />
     <ProjectReference Include="..\JedlikToys\JedlikToys.csproj" />
+    <ProjectReference Include="..\NeedForSpeed\NeedForSpeed.csproj" />
     <ProjectReference Include="..\SqueakyClean\SqueakyClean.csproj" />
   </ItemGroup>
 
