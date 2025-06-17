@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JedlikToys", "JedlikToys\Je
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "NeedForSpeed\NeedForSpeed.csproj", "{B57DDD3A-7196-4EF0-9C9B-2F27A7538873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingUpForBeauty", "BookingUpForBeauty\BookingUpForBeauty.csproj", "{36D28312-2448-462D-9B1C-F105A3CE2656}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B57DDD3A-7196-4EF0-9C9B-2F27A7538873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B57DDD3A-7196-4EF0-9C9B-2F27A7538873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B57DDD3A-7196-4EF0-9C9B-2F27A7538873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D28312-2448-462D-9B1C-F105A3CE2656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D28312-2448-462D-9B1C-F105A3CE2656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D28312-2448-462D-9B1C-F105A3CE2656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D28312-2448-462D-9B1C-F105A3CE2656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
