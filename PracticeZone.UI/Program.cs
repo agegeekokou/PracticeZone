@@ -16,7 +16,7 @@ namespace PracticeZone.UI
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(Appointment.Schedule("7/25/2019 13:45:00"));
+            Console.WriteLine(Appointment.IsAfternoonAppointment(new DateTime(2019, 03, 29, 10, 0, 0)));
             
             Console.ReadKey();
         }
